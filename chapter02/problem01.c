@@ -1,3 +1,4 @@
+// terminal art of a checkmark
 #include <stdio.h>
 
 int main() {
