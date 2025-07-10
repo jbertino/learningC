@@ -1,0 +1,12 @@
+// add two fractions
+#include <stdio.h>
+
+int main(void){
+
+    int num1, den1, num2, den2;
+
+    printf("Enter two fractions to be added (n1/d1+n2/d2): ");
+    scanf("%d/%d+%d/%d", &num1, &den1, &num2, &den2);
+
+    printf("The sum is: %d/%d\n", (num1 * den2 + num2 * den1), (den1 * den2));
+}
